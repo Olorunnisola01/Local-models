@@ -1,0 +1,24 @@
+---
+pid: 17736
+cwd: "C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models"
+command: "Get-Process test_edge_tts_cli -ErrorAction SilentlyContinue | Stop-Process -Force; cmake -S \"C:\\Users\\ADELEKEOLORUNISOLAO\\Desktop\\Local voice models\" -B \"C:\\Users\\ADELEKEOLORUNISOLAO\\Desktop\\Local voice models\\build\" 2>&1 | Select-Object -Last 5; cmake --build \"C:\\Users\\ADELEKEOLORUNISOLAO\\Desktop\\Local voice models\\build\" --config Release --target test_edge_tts_cli EdgeTTSStudioNative 2>&1 | Select-Object -Last 12"
+started_at: 2026-06-17T05:43:35.965Z
+running_for_ms: 855002   
+---
+-- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.22631.
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Configuring done (3.7s)
+-- Generating done (1.7s)
+-- Build files have been written to: C:/Users/ADELEKEOLORUNISOLAO/Desktop/Local voice models/build
+  qsvgicon.dll is up to date.
+  qgif.dll is up to date.
+  qico.dll is up to date.
+  qjpeg.dll is up to date.
+  qsvg.dll is up to date.
+  ffmpegmediaplugin.dll is up to date.
+  windowsmediaplugin.dll is up to date.
+  qnetworklistmanager.dll is up to date.
+  qwindows.dll is up to date.
+  qmodernwindowsstyle.dll is up to date.
+  qcertonlybackend.dll is up to date.
+  qschannelbackend.dll is up to date.

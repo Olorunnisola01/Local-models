@@ -1,0 +1,90 @@
+---
+pid: 23216
+cwd: "C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models"
+command: "cmake --build \"C:\\Users\\ADELEKEOLORUNISOLAO\\Desktop\\Local voice models\\build\" --config Release --target EdgeTTSStudioNative"
+started_at: 2026-06-17T00:32:32.232Z
+running_for_ms: 4580006  
+---
+MSBuild version 17.14.40+3e7442088 for .NET Framework
+
+  1>Checking Build System
+  Automatic MOC and UIC for target tts_core
+  Building Custom Rule C:/Users/ADELEKEOLORUNISOLAO/Desktop/Local voice models/CMakeLists.txt
+  SupertonicEngine.cpp
+  UnicodeProcessor.cpp
+  VoiceStyle.cpp
+  Phonemizer.cpp
+  KokoroEngine.cpp
+  PiperEngine.cpp
+  VoiceCatalog.cpp
+  GpuDevice.cpp
+  BiquadFilter.cpp
+  DeepFilterNetEngine.cpp
+  Fft.cpp
+  GraphicEq.cpp
+  Humanizer.cpp
+  Normalizer.cpp
+  Resampler.cpp
+  WavReader.cpp
+  WavWriter.cpp
+  mocs_compilation_Release.cpp
+  Generating Code...
+  tts_core.vcxproj -> C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\Release\tts_core.lib
+C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: The intermediate directory (EdgeTTSStudioNative.dir\Release\) contains files shared from another project (EdgeTTSStudioNative.vcxproj).  This can lead to incorrect clean and rebuild behavior. [C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\EdgeTTSStudioNative.vcxproj]
+  Automatic MOC and UIC for target EdgeTTSStudioNative
+  Building Custom Rule C:/Users/ADELEKEOLORUNISOLAO/Desktop/Local voice models/CMakeLists.txt
+  main.cpp
+  EdgeTtsEngine.cpp
+  RemoteKokoroEngine.cpp
+  RemoteFishSpeechEngine.cpp
+  MainWindow.cpp
+  EqBandWidget.cpp
+  EqPanel.cpp
+  MultiSpeakerPanel.cpp
+  SpeakerVoiceCard.cpp
+  mocs_compilation_Release.cpp
+  Generating Code...
+  EdgeTTSStudioNative.vcxproj -> C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\Release\EdgeTTSStudioNative.exe
+  C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\Release\EdgeTTSStudioNative.exe 64 bit, release executable
+  Adding in plugin type generic for module: Qt6Gui
+  Adding in plugin type iconengines for module: Qt6Gui
+  Adding Qt6Svg for qsvgicon.dll from plugin type: iconengines
+  Adding in plugin type imageformats for module: Qt6Gui
+  Adding in plugin type multimedia for module: Qt6Multimedia
+  Adding in plugin type networkinformation for module: Qt6Network
+  Adding in plugin type platforms for module: Qt6Gui
+  Adding in plugin type styles for module: Qt6Widgets
+  Adding in plugin type tls for module: Qt6Network
+  Skipping plugin qopensslbackend.dll. Use -force-openssl or specify -openssl-root if you want to use it.
+  Direct dependencies: Qt6Core Qt6Gui Qt6Multimedia Qt6Network Qt6Widgets
+  All dependencies   : Qt6Core Qt6Gui Qt6Multimedia Qt6Network Qt6Widgets
+  To be deployed     : Qt6Core Qt6Gui Qt6Multimedia Qt6Network Qt6Svg Qt6Widgets
+EXEC : warning : Cannot find Visual Studio installation directory, VCINSTALLDIR is not set. [C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\EdgeTTSStudioNative.vcxproj]
+  Qt6Core.dll is up to date.
+  Qt6Gui.dll is up to date.
+  Qt6Multimedia.dll is up to date.
+  Qt6Network.dll is up to date.
+  Qt6Svg.dll is up to date.
+  Qt6Widgets.dll is up to date.
+  opengl32sw.dll is up to date.
+  D3Dcompiler_47.dll is up to date.
+  dxcompiler.dll is up to date.
+  dxil.dll is up to date.
+  avcodec-61.dll is up to date.
+  avformat-61.dll is up to date.
+  avutil-59.dll is up to date.
+  swresample-5.dll is up to date.
+  swscale-8.dll is up to date.
+  qtuiotouchplugin.dll is up to date.
+  qsvgicon.dll is up to date.
+  qgif.dll is up to date.
+  qico.dll is up to date.
+  qjpeg.dll is up to date.
+  qsvg.dll is up to date.
+  ffmpegmediaplugin.dll is up to date.
+  windowsmediaplugin.dll is up to date.
+  qnetworklistmanager.dll is up to date.
+  qwindows.dll is up to date.
+  qmodernwindowsstyle.dll is up to date.
+  qcertonlybackend.dll is up to date.
+  qschannelbackend.dll is up to date.

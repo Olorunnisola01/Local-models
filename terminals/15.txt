@@ -1,0 +1,21 @@
+---
+pid: 21516
+cwd: "C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models"
+command: "Get-Process test_edge_tts_cli -ErrorAction SilentlyContinue | Stop-Process -Force; Start-Sleep 3; Set-Location \"C:\\Users\\ADELEKEOLORUNISOLAO\\Desktop\\Local voice models\\build\\Release\"; Write-Host \"STAR:\"; $t1 = Measure-Command { & .\\test_edge_tts_cli.exe out_star.wav en-US-AvaMultilingualNeural \"*hello* world\" 2>&1 | Out-String | Write-Host }; Write-Host \"star took $($t1.TotalSeconds)s\"; Write-Host \"EMPH:\"; $t2 = Measure-Command { & .\\test_edge_tts_cli.exe out_emph13.wav en-US-AvaMultilingualNeural \"[emph]Hello[/emph] world\" 2>&1 | Out-String | Write-Host }; Write-Host \"emph took $($t2.TotalSeconds)s\""
+started_at: 2026-06-17T05:28:39.522Z
+running_for_ms: 1870013  
+---
+STAR:
+test_edge_tts_cli.exe : Error: EdgeTtsEngine: server closed connection (code 1007): SSML is invalid
+At line:1 char:229
++ ... e-Command { & .\test_edge_tts_cli.exe out_star.wav en-US-AvaMultiling ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Error: EdgeTtsE...SSML is invalid:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Synthesizing with voice "en-US-AvaMultilingualNeural": "*hello* world"
+
+star took 4.2164182s
+EMPH:
+
+emph took 563.4907354s

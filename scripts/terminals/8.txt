@@ -1,0 +1,18 @@
+---
+pid: 7452
+cwd: "C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\scripts"
+command: "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\ADELEKEOLORUNISOLAO\\Desktop\\Local voice models\\scripts\\fetch_fish_s2.ps1\""
+started_at: 2026-06-17T15:37:11.871Z
+running_for_ms: 3540011  
+---
+Fish Audio S2 Pro model download
+Source: https://huggingface.co/fishaudio/s2-pro
+Destination: C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\models\fish-s2-pro
+
+Downloading via huggingface_hub (py -3.10) ... (first run may take 10-30+ minutes)
+C:\Users\ADELEKEOLORUNISOLAO\AppData\Local\Programs\Python\Python310\lib\site-packages\huggingface_hub\utils\_validators.py:189: UserWarning: The `resume_download` argument is deprecated and ignored in `snapshot_download`. Downloads always resume whenever possible.
+  warnings.warn(
+C:\Users\ADELEKEOLORUNISOLAO\AppData\Local\Programs\Python\Python310\lib\site-packages\huggingface_hub\utils\_validators.py:205: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `snapshot_download`. Downloading to a local directory does not use symlinks anymore.
+  warnings.warn(
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]

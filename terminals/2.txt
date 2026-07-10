@@ -1,0 +1,193 @@
+---
+pid: 5604
+cwd: "C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models"
+command: "Set-Location \"C:\\Users\\ADELEKEOLORUNISOLAO\\Desktop\\Local voice models\"; cmake --build build 2>&1"
+started_at: 2026-06-17T02:02:03.031Z
+running_for_ms: 5100004  
+---
+CMake is re-running because C:/Users/ADELEKEOLORUNISOLAO/Desktop/Local voice models/build/CMakeFiles/generate.stamp is out-of-date.
+  the file 'C:/Users/ADELEKEOLORUNISOLAO/Desktop/Local voice models/CMakeLists.txt'
+  is newer than 'C:/Users/ADELEKEOLORUNISOLAO/Desktop/Local voice models/build/CMakeFiles/generate.stamp.depend'
+  result='-1'
+-- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.22631.
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Configuring done (1.7s)
+-- Generating done (1.4s)
+-- Build files have been written to: C:/Users/ADELEKEOLORUNISOLAO/Desktop/Local voice models/build
+MSBuild version 17.14.40+3e7442088 for .NET Framework
+
+  1>Checking Build System
+  Automatic MOC and UIC for target tts_core
+  Building Custom Rule C:/Users/ADELEKEOLORUNISOLAO/Desktop/Local voice models/CMakeLists.txt
+  mocs_compilation_Debug.cpp
+  SupertonicEngine.cpp
+  UnicodeProcessor.cpp
+  VoiceStyle.cpp
+  Phonemizer.cpp
+  KokoroEngine.cpp
+  PiperEngine.cpp
+  VoiceCatalog.cpp
+  TextMarkup.cpp
+  GpuDevice.cpp
+  BiquadFilter.cpp
+  DeepFilterNetEngine.cpp
+  Fft.cpp
+  GraphicEq.cpp
+  Humanizer.cpp
+  Normalizer.cpp
+  Resampler.cpp
+  WavReader.cpp
+  WavWriter.cpp
+  Generating Code...
+  tts_core.vcxproj -> C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\Debug\tts_core.lib
+C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: The intermediate directory (EdgeTTSStudioNative.dir\Debug\) contains files shared from another project (EdgeTTSStudioNative.vcxproj).  This can lead to incorrect clean and rebuild behavior. [C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\EdgeTTSStudioNative.vcxproj]
+  Automatic MOC and UIC for target EdgeTTSStudioNative
+  Building Custom Rule C:/Users/ADELEKEOLORUNISOLAO/Desktop/Local voice models/CMakeLists.txt
+  mocs_compilation_Debug.cpp
+  main.cpp
+  EdgeTtsEngine.cpp
+  RemoteKokoroEngine.cpp
+  RemoteFishSpeechEngine.cpp
+  MainWindow.cpp
+  EqBandWidget.cpp
+  EqPanel.cpp
+  MultiSpeakerPanel.cpp
+  SpeakerVoiceCard.cpp
+  TimelineTypes.cpp
+  AudioTimelineBuilder.cpp
+  TimelinePanel.cpp
+  ProjectManager.cpp
+  CaptionExporter.cpp
+  PronunciationPanel.cpp
+  ExportPackageDialog.cpp
+  ReadMeDialog.cpp
+  Generating Code...
+  EdgeTTSStudioNative.vcxproj -> C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\Debug\EdgeTTSStudioNative.exe
+  C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\Debug\EdgeTTSStudioNative.exe 64 bit, debug executable
+  Adding in plugin type generic for module: Qt6Gui
+  Adding in plugin type iconengines for module: Qt6Gui
+  Adding Qt6Svg for qsvgicond.dll from plugin type: iconengines
+  Adding in plugin type imageformats for module: Qt6Gui
+  Adding in plugin type multimedia for module: Qt6Multimedia
+  Adding in plugin type networkinformation for module: Qt6Network
+  Adding in plugin type platforms for module: Qt6Gui
+  Adding in plugin type styles for module: Qt6Widgets
+  Adding in plugin type tls for module: Qt6Network
+  Skipping plugin qopensslbackendd.dll. Use -force-openssl or specify -openssl-root if you want to use it.
+  Direct dependencies: Qt6Core Qt6Gui Qt6Multimedia Qt6Network Qt6Widgets
+  All dependencies   : Qt6Core Qt6Gui Qt6Multimedia Qt6Network Qt6Widgets
+  To be deployed     : Qt6Core Qt6Gui Qt6Multimedia Qt6Network Qt6Svg Qt6Widgets
+EXEC : warning : Cannot find Visual Studio installation directory, VCINSTALLDIR is not set. [C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\EdgeTTSStudioNative.vcxproj]
+  Qt6Cored.dll is up to date.
+  Qt6Guid.dll is up to date.
+  Qt6Multimediad.dll is up to date.
+  Qt6Networkd.dll is up to date.
+  Qt6Svgd.dll is up to date.
+  Qt6Widgetsd.dll is up to date.
+  opengl32sw.dll is up to date.
+  D3Dcompiler_47.dll is up to date.
+  dxcompiler.dll is up to date.
+  dxil.dll is up to date.
+  avcodec-61.dll is up to date.
+  avformat-61.dll is up to date.
+  avutil-59.dll is up to date.
+  swresample-5.dll is up to date.
+  swscale-8.dll is up to date.
+  qtuiotouchplugind.dll is up to date.
+  qsvgicond.dll is up to date.
+  qgifd.dll is up to date.
+  qicod.dll is up to date.
+  qjpegd.dll is up to date.
+  qsvgd.dll is up to date.
+  ffmpegmediaplugind.dll is up to date.
+  windowsmediaplugind.dll is up to date.
+  qnetworklistmanagerd.dll is up to date.
+  qwindowsd.dll is up to date.
+  qmodernwindowsstyled.dll is up to date.
+  qcertonlybackendd.dll is up to date.
+  qschannelbackendd.dll is up to date.
+  Automatic MOC and UIC for target dump_onnx_io
+  Building Custom Rule C:/Users/ADELEKEOLORUNISOLAO/Desktop/Local voice models/CMakeLists.txt
+  mocs_compilation_Debug.cpp
+  dump_onnx_io.cpp
+  Generating Code...
+  dump_onnx_io.vcxproj -> C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\Debug\dump_onnx_io.exe
+  Automatic MOC and UIC for target test_dfn_cli
+  Building Custom Rule C:/Users/ADELEKEOLORUNISOLAO/Desktop/Local voice models/CMakeLists.txt
+  mocs_compilation_Debug.cpp
+  test_dfn_cli.cpp
+  Generating Code...
+  test_dfn_cli.vcxproj -> C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\Debug\test_dfn_cli.exe
+  Automatic MOC and UIC for target test_edge_tts_cli
+  Building Custom Rule C:/Users/ADELEKEOLORUNISOLAO/Desktop/Local voice models/CMakeLists.txt
+  mocs_compilation_Debug.cpp
+  test_edge_tts_cli.cpp
+  EdgeTtsEngine.cpp
+  Generating Code...
+  test_edge_tts_cli.vcxproj -> C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\Debug\test_edge_tts_cli.exe
+  C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\Debug\test_edge_tts_cli.exe 64 bit, debug executable
+  Adding in plugin type generic for module: Qt6Gui
+  Adding in plugin type iconengines for module: Qt6Gui
+  Adding Qt6Svg for qsvgicond.dll from plugin type: iconengines
+  Adding in plugin type imageformats for module: Qt6Gui
+  Adding in plugin type multimedia for module: Qt6Multimedia
+  Adding in plugin type networkinformation for module: Qt6Network
+  Adding in plugin type platforms for module: Qt6Gui
+  Adding in plugin type tls for module: Qt6Network
+  Skipping plugin qopensslbackendd.dll. Use -force-openssl or specify -openssl-root if you want to use it.
+  Direct dependencies: Qt6Core Qt6Gui Qt6Multimedia Qt6Network
+  All dependencies   : Qt6Core Qt6Gui Qt6Multimedia Qt6Network
+  To be deployed     : Qt6Core Qt6Gui Qt6Multimedia Qt6Network Qt6Svg
+EXEC : warning : Cannot find Visual Studio installation directory, VCINSTALLDIR is not set. [C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\test_edge_tts_cli.vcxproj]
+  Qt6Cored.dll is up to date.
+  Qt6Guid.dll is up to date.
+  Qt6Multimediad.dll is up to date.
+  Qt6Networkd.dll is up to date.
+  Qt6Svgd.dll is up to date.
+  opengl32sw.dll is up to date.
+  D3Dcompiler_47.dll is up to date.
+  dxcompiler.dll is up to date.
+  dxil.dll is up to date.
+  avcodec-61.dll is up to date.
+  avformat-61.dll is up to date.
+  avutil-59.dll is up to date.
+  swresample-5.dll is up to date.
+  swscale-8.dll is up to date.
+  qtuiotouchplugind.dll is up to date.
+  qsvgicond.dll is up to date.
+  qgifd.dll is up to date.
+  qicod.dll is up to date.
+  qjpegd.dll is up to date.
+  qsvgd.dll is up to date.
+  ffmpegmediaplugind.dll is up to date.
+  windowsmediaplugind.dll is up to date.
+  qnetworklistmanagerd.dll is up to date.
+  qwindowsd.dll is up to date.
+  qcertonlybackendd.dll is up to date.
+  qschannelbackendd.dll is up to date.
+  Automatic MOC and UIC for target test_kokoro_cli
+  Building Custom Rule C:/Users/ADELEKEOLORUNISOLAO/Desktop/Local voice models/CMakeLists.txt
+  mocs_compilation_Debug.cpp
+  test_kokoro_cli.cpp
+  Generating Code...
+  test_kokoro_cli.vcxproj -> C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\Debug\test_kokoro_cli.exe
+  Automatic MOC and UIC for target test_kokoro_concurrency
+  Building Custom Rule C:/Users/ADELEKEOLORUNISOLAO/Desktop/Local voice models/CMakeLists.txt
+  mocs_compilation_Debug.cpp
+  test_kokoro_concurrency.cpp
+  Generating Code...
+  test_kokoro_concurrency.vcxproj -> C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\Debug\test_kokoro_concurrency.exe
+  Automatic MOC and UIC for target test_piper_cli
+  Building Custom Rule C:/Users/ADELEKEOLORUNISOLAO/Desktop/Local voice models/CMakeLists.txt
+  mocs_compilation_Debug.cpp
+  test_piper_cli.cpp
+  Generating Code...
+  test_piper_cli.vcxproj -> C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\Debug\test_piper_cli.exe
+C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: The intermediate directory (test_supertonic_cli.dir\Debug\) contains files shared from another project (test_supertonic_cli.vcxproj).  This can lead to incorrect clean and rebuild behavior. [C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\test_supertonic_cli.vcxproj]
+  Automatic MOC and UIC for target test_supertonic_cli
+  Building Custom Rule C:/Users/ADELEKEOLORUNISOLAO/Desktop/Local voice models/CMakeLists.txt
+  mocs_compilation_Debug.cpp
+  test_supertonic_cli.cpp
+  Generating Code...
+  test_supertonic_cli.vcxproj -> C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\Debug\test_supertonic_cli.exe
+  Building Custom Rule C:/Users/ADELEKEOLORUNISOLAO/Desktop/Local voice models/CMakeLists.txt

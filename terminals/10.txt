@@ -1,0 +1,7 @@
+---
+pid: 9432
+cwd: "C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models"
+command: "$exe = \"C:\\Users\\ADELEKEOLORUNISOLAO\\Desktop\\Local voice models\\build\\Release\\test_edge_tts_cli.exe\"; $out = \"C:\\Users\\ADELEKEOLORUNISOLAO\\Desktop\\Local voice models\\out_edge_emph6.wav\"; $voice = \"en-US-AvaMultilingualNeural\"; $text = \"[emph]Hello[/emph] world\"; & $exe $out $voice $text 2>&1"
+started_at: 2026-06-17T05:13:44.134Z
+running_for_ms: 2855006  
+---

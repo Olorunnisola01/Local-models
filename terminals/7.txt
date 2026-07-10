@@ -1,0 +1,7 @@
+---
+pid: 2192
+cwd: "C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models"
+command: "& \"C:\\Users\\ADELEKEOLORUNISOLAO\\Desktop\\Local voice models\\build\\Release\\test_edge_tts_cli.exe\" \"C:\\Users\\ADELEKEOLORUNISOLAO\\Desktop\\Local voice models\\out_edge_emph.wav\" \"en-US-AvaMultilingualNeural\" '[emph]Hello[/emph] world' 2>&1"
+started_at: 2026-06-17T05:02:35.427Z
+running_for_ms: 3525001  
+---

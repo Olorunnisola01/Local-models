@@ -1,0 +1,27 @@
+---
+pid: 4028
+cwd: "C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models"
+command: "Set-Location \"C:\\Users\\ADELEKEOLORUNISOLAO\\Desktop\\Local voice models\"; cmake --build build --config Release 2>&1 | Select-Object -Last 20"
+started_at: 2026-06-17T04:23:33.894Z
+running_for_ms: 1465237  
+---
+  qjpeg.dll is up to date.
+  qsvg.dll is up to date.
+  ffmpegmediaplugin.dll is up to date.
+  windowsmediaplugin.dll is up to date.
+  qnetworklistmanager.dll is up to date.
+  qwindows.dll is up to date.
+  qcertonlybackend.dll is up to date.
+  qschannelbackend.dll is up to date.
+  Automatic MOC and UIC for target test_kokoro_cli
+  test_kokoro_cli.vcxproj -> C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\Release\test_kokoro_cli.exe
+C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: The intermediate directory (test_kokoro_concurrency.dir\Release\) contains files shared from another project (test_kokoro_concurrency.vcxproj).  This can lead to incorrect clean and rebuild behavior. [C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\test_kokoro_concurrency.vcxproj]
+  Automatic MOC and UIC for target test_kokoro_concurrency
+  test_kokoro_concurrency.vcxproj -> C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\Release\test_kokoro_concurrency.exe
+  Automatic MOC and UIC for target test_piper_cli
+  test_piper_cli.vcxproj -> C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\Release\test_piper_cli.exe
+C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: The intermediate directory (test_supertonic_cli.dir\Release\) contains files shared from another project (test_supertonic_cli.vcxproj).  This can lead to incorrect clean and rebuild behavior. [C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\test_supertonic_cli.vcxproj]
+  Automatic MOC and UIC for target test_supertonic_cli
+  test_supertonic_cli.vcxproj -> C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\Release\test_supertonic_cli.exe
+  Automatic MOC and UIC for target test_text_markup
+  test_text_markup.vcxproj -> C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\build\Release\test_text_markup.exe

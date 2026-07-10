@@ -1,0 +1,8 @@
+---
+pid: 6320
+cwd: "C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models"
+command: "$exe = \"C:\\Users\\ADELEKEOLORUNISOLAO\\Desktop\\Local voice models\\build\\Release\\test_edge_tts_cli.exe\"; $args = @(\"C:\\Users\\ADELEKEOLORUNISOLAO\\Desktop\\Local voice models\\out_edge_emph4.wav\", \"en-US-AvaMultilingualNeural\", \"[emph]Hello[/emph] world\"); Write-Host \"args=$($args -join '|')\"; & $exe @args 2>&1"
+started_at: 2026-06-17T05:09:34.166Z
+running_for_ms: 3105013  
+---
+args=C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\out_edge_emph4.wav|en-US-AvaMultilingualNeural|[emph]Hello[/emph] world

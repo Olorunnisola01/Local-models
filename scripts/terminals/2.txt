@@ -1,0 +1,61 @@
+---
+pid: 24128
+cwd: "C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\scripts"
+command: "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\ADELEKEOLORUNISOLAO\\Desktop\\Local voice models\\scripts\\fetch_fish_s2.ps1\""
+started_at: 2026-06-17T14:52:59.828Z
+running_for_ms: 6190003  
+---
+At C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\scripts\fetch_fish_s2.ps1:65 char:43
++         Write-Host "  [OK] $name ($sizeMb MB)"
++                                           ~~
+Unexpected token 'MB' in expression or statement.
+At C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\scripts\fetch_fish_s2.ps1:65 char:42
++         Write-Host "  [OK] $name ($sizeMb MB)"
++                                          ~
+Missing closing ')' in expression.
+At C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\scripts\fetch_fish_s2.ps1:41 char:36
++ if (Test-CheckpointComplete $dest) {
++                                    ~
+Missing closing '}' in statement block or type definition.
+At C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\scripts\fetch_fish_s2.ps1:65 char:45
++         Write-Host "  [OK] $name ($sizeMb MB)"
++                                             ~
+Unexpected token ')' in expression or statement.
+At C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\scripts\fetch_fish_s2.ps1:67 char:23
++         Write-Host "  [MISSING] $name"
++                       ~~~~~~~~~
+Unexpected token '[MISSING]' in expression or statement.
+At C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\scripts\fetch_fish_s2.ps1:67 char:38
++         Write-Host "  [MISSING] $name"
++                                      ~
+Unexpected token '"
+    }
+}
+foreach ($name in $optional) {
+    $path = Join-Path $dest $name
+    if (Test-Path $path) {
+        Write-Host "' in expression or statement.
+At C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\scripts\fetch_fish_s2.ps1:74 char:23
++         Write-Host "  [OK] $name (optional)"
++                       ~~~~
+Unexpected token '[OK]' in expression or statement.
+At C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\scripts\fetch_fish_s2.ps1:74 char:34
++         Write-Host "  [OK] $name (optional)"
++                                  ~
+Unexpected token '(' in expression or statement.
+At C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\scripts\fetch_fish_s2.ps1:74 char:44
++         Write-Host "  [OK] $name (optional)"
++                                            ~
+Unexpected token '"
+    }
+}
+if (-not (Test-CheckpointComplete $dest)) {
+    throw "' in expression or statement.
+At C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\scripts\fetch_fish_s2.ps1:79 char:12
++     throw "Download incomplete. Re-run this script or download manual ...
++            ~~~~~~~~
+Unexpected token 'Download' in expression or statement.
+Not all parse errors were reported.  Correct the reported errors and try again.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+ 

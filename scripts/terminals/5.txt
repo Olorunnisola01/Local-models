@@ -1,0 +1,14 @@
+---
+pid: 1600
+cwd: "C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\scripts"
+command: "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\ADELEKEOLORUNISOLAO\\Desktop\\Local voice models\\scripts\\fetch_fish_s2.ps1\""
+started_at: 2026-06-17T14:58:04.979Z
+running_for_ms: 5885012  
+---
+Fish Audio S2 Pro model download
+Source: https://huggingface.co/fishaudio/s2-pro
+Destination: C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\models\fish-s2-pro
+
+Downloading via hf.exe ... (first run may take 10-30+ minutes)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]Fetching 13 files:  31%|███       | 4/13 [00:00<00:00, 25.04it/s]Fetching 13 files:  31%|███       | 4/13 [00:18<00:00, 25.04it/s]

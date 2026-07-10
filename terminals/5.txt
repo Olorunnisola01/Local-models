@@ -1,0 +1,15 @@
+---
+pid: 1956
+cwd: "C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models"
+command: "Set-Location \"C:\\Users\\ADELEKEOLORUNISOLAO\\Desktop\\Local voice models\"; cmake --build build --config Release --target EdgeTTSStudioNative 2>&1 | Select-Object -Last 8"
+started_at: 2026-06-17T04:33:53.149Z
+running_for_ms: 1025160  
+---
+  qsvg.dll is up to date.
+  ffmpegmediaplugin.dll is up to date.
+  windowsmediaplugin.dll is up to date.
+  qnetworklistmanager.dll is up to date.
+  qwindows.dll is up to date.
+  qmodernwindowsstyle.dll is up to date.
+  qcertonlybackend.dll is up to date.
+  qschannelbackend.dll is up to date.

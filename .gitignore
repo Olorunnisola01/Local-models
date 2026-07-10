@@ -1,0 +1,21 @@
+build/
+models/
+third_party/onnxruntime/include/*
+third_party/onnxruntime/lib/*
+!third_party/onnxruntime/include/.gitkeep
+!third_party/onnxruntime/lib/.gitkeep
+third_party/espeak-ng/
+
+# Build/setup logs
+*.log
+gui_log.txt
+# Windows shortcut
+*.lnk
+# Audio outputs
+*.mp3
+*.wav
+*.flac
+
+# Python cache
+__pycache__/
+*.pyc

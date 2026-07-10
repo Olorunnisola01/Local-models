@@ -1,0 +1,19 @@
+---
+pid: 23148
+cwd: "C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\scripts"
+command: "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\ADELEKEOLORUNISOLAO\\Desktop\\Local voice models\\scripts\\fetch_fish_s2.ps1\""
+started_at: 2026-06-17T14:52:14.274Z
+running_for_ms: 6235011  
+---
+At C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\scripts\fetch_fish_s2.ps1:52 char:90
++ ... loading via $($hfCli.Name) ?� (first run may take 10?"30+ minutes)"
++                                                                          ~
+Missing closing ')' in expression.
+At C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\scripts\fetch_fish_s2.ps1:53 char:5
++     & $hfCli.Source download $RepoId --local-dir $dest
++     ~
+The ampersand (&) character is not allowed. The & operator is reserved for future use; wrap an ampersand in double 
+quotation marks ("&") to pass it as part of a string.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingEndParenthesisInExpression
+ 

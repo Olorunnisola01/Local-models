@@ -1,0 +1,16 @@
+---
+pid: 8016
+cwd: "C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models"
+command: "Get-Process test_edge_tts_cli -ErrorAction SilentlyContinue | Stop-Process -Force; Set-Location \"C:\\Users\\ADELEKEOLORUNISOLAO\\Desktop\\Local voice models\\build\\Release\"; $p = Start-Process -FilePath \".\\test_edge_tts_cli.exe\" -ArgumentList '\"out_emph10.wav\" \"en-US-AvaMultilingualNeural\" \"[emph]Hello[/emph] world\"' -PassThru -NoNewWindow -RedirectStandardOutput \"edge_emph10_out.txt\" -RedirectStandardError \"edge_emph10_err.txt\"; $null = $p | Wait-Process -Timeout 90; if (-not $p.HasExited) { Stop-Process -Id $p.Id -Force; \"TIMED OUT\" } else { \"EXIT $($p.ExitCode)\" }; Get-Content edge_emph10_out.txt; Get-Content edge_emph10_err.txt"
+started_at: 2026-06-17T05:22:25.309Z
+running_for_ms: 2325001  
+---
+TIMED OUTWait-Process : This command stopped operation because process "test_edge_tts_cli (18804)" is not stopped in the 
+
+specified time-out.
+At line:1 char:443
++ ...  "edge_emph10_err.txt"; $null = $p | Wait-Process -Timeout 90; if (-n ...
++                                          ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : CloseError: (System.Diagnost...t_edge_tts_cli):Process) [Wait-Process], TimeoutException
+    + FullyQualifiedErrorId : ProcessNotTerminated,Microsoft.PowerShell.Commands.WaitProcessCommand
+ 

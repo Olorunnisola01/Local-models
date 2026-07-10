@@ -1,0 +1,7 @@
+---
+pid: 15412
+cwd: "C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models"
+command: "Get-Process test_edge_tts_cli -ErrorAction SilentlyContinue | Stop-Process -Force; Set-Location \"C:\\Users\\ADELEKEOLORUNISOLAO\\Desktop\\Local voice models\\build\\Release\"; $text = \"[emph]Hello[/emph] world\"; & .\\test_edge_tts_cli.exe out_emph11.wav en-US-AvaMultilingualNeural $text 2>&1"
+started_at: 2026-06-17T05:24:10.073Z
+running_for_ms: 2229999  
+---

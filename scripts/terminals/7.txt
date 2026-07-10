@@ -1,0 +1,20 @@
+---
+pid: 27944
+cwd: "C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\scripts"
+command: "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\ADELEKEOLORUNISOLAO\\Desktop\\Local voice models\\scripts\\fetch_fish_s2.ps1\""
+started_at: 2026-06-17T15:33:25.400Z
+running_for_ms: 3765010  
+---
+Fish Audio S2 Pro model download
+Source: https://huggingface.co/fishaudio/s2-pro
+Destination: C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\models\fish-s2-pro
+
+Downloading via huggingface_hub (py -3.10) ... (first run may take 10-30+ minutes)
+& : The term 'py -3.10' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\scripts\fetch_fish_s2.ps1:65 char:11
++         & @pythonExe -c $pyCode
++           ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (py -3.10:String) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 

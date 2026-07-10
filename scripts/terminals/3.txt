@@ -1,0 +1,32 @@
+---
+pid: 27176
+cwd: "C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\scripts"
+command: "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\ADELEKEOLORUNISOLAO\\Desktop\\Local voice models\\scripts\\fetch_fish_s2.ps1\""
+started_at: 2026-06-17T14:54:51.683Z
+running_for_ms: 6080003  
+---
+Fish Audio S2 Pro model download
+Source: https://huggingface.co/fishaudio/s2-pro
+Destination: C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\models\fish-s2-pro
+
+Downloading via huggingface-cli.exe ... (first run may take 10-30+ minutes)
+Warning: `huggingface-cli` is deprecated and no longer works. Use `hf` instead.
+
+Hint: `hf` is already installed! Use it directly.
+
+Hint: Examples:
+  hf auth login
+  hf download unsloth/gemma-4-31B-it-GGUF
+  hf upload my-cool-model . .
+  hf models ls --search "gemma"
+  hf repos ls --format json
+  hf jobs run python:3.12 python -c 'print("Hello!")'
+  hf --help
+
+huggingface-cli download failed with exit code 1
+At C:\Users\ADELEKEOLORUNISOLAO\Desktop\Local voice models\scripts\fetch_fish_s2.ps1:55 char:9
++         throw "huggingface-cli download failed with exit code $LASTEX ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (huggingface-cli...ith exit code 1:String) [], RuntimeException
+    + FullyQualifiedErrorId : huggingface-cli download failed with exit code 1
+ 
