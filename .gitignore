@@ -19,3 +19,9 @@ gui_log.txt
 # Python cache
 __pycache__/
 *.pyc
+
+# Portable packaging output (single-file exe, ~1.4 GB)
+dist/
+# 7-Zip binaries copied in transiently while building the launcher
+packaging/7z.exe
+packaging/7z.dll
