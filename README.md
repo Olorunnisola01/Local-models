@@ -1,5 +1,6 @@
 # EdgeTTS-Studio Native
 
+[![Windows build](https://github.com/Olorunnisola01/Local-models/actions/workflows/build.yml/badge.svg)](https://github.com/Olorunnisola01/Local-models/actions/workflows/build.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![Platform: Windows](https://img.shields.io/badge/platform-Windows%2010%2F11-blue)
 ![C++20](https://img.shields.io/badge/C%2B%2B-20-00599C)
@@ -114,7 +115,16 @@ copies `DirectML.dll` for GPU acceleration.
 
 ### espeak-ng (phonemizer for Kokoro & Piper)
 
-Kokoro and Piper convert text to phonemes with **espeak-ng**. Place a prebuilt
+Kokoro and Piper convert text to phonemes with **espeak-ng**. From a
+**Developer PowerShell for VS 2022**, run:
+
+```powershell
+.\scripts\fetch_espeak_ng.ps1
+```
+
+This downloads the official espeak-ng Windows installer, extracts it without
+installing, and vendors the header, DLL, import library and `espeak-ng-data\`
+into `third_party\espeak-ng\`. To do it by hand instead, place a prebuilt
 espeak-ng into `third_party\espeak-ng\` so that `espeak-ng-data\` exists there.
 Get it from the [espeak-ng releases](https://github.com/espeak-ng/espeak-ng/releases)
 (Windows build). If you already have `espeak-ng-data` from another install, copy

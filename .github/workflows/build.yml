@@ -1,0 +1,65 @@
+name: Windows build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up MSVC
+        uses: ilammy/msvc-dev-cmd@v1
+        with:
+          arch: x64
+
+      - name: Install Qt 6.8
+        uses: jurplel/install-qt-action@v4
+        with:
+          version: '6.8.1'
+          host: windows
+          target: desktop
+          arch: win64_msvc2022_64
+          modules: qtmultimedia
+          cache: true
+
+      - name: Fetch ONNX Runtime (DirectML)
+        shell: pwsh
+        run: ./scripts/fetch_onnxruntime.ps1
+
+      - name: Fetch DirectML.dll
+        shell: pwsh
+        run: |
+          $pkg = Join-Path $env:RUNNER_TEMP "directml.zip"
+          Invoke-WebRequest -Uri "https://www.nuget.org/api/v2/package/Microsoft.AI.DirectML/1.15.2" -OutFile $pkg
+          $out = Join-Path $env:RUNNER_TEMP "directml"
+          Expand-Archive -Path $pkg -DestinationPath $out
+          $dll = Get-ChildItem -Recurse $out -Filter DirectML.dll | Where-Object { $_.FullName -match 'x64' } | Select-Object -First 1
+          Copy-Item $dll.FullName third_party/onnxruntime/lib/DirectML.dll
+
+      - name: Fetch espeak-ng
+        shell: pwsh
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: ./scripts/fetch_espeak_ng.ps1
+
+      - name: Create empty models folder
+        shell: pwsh
+        run: New-Item -ItemType Directory -Force models | Out-Null
+
+      - name: Configure
+        run: cmake -S . -B build
+
+      - name: Build
+        run: cmake --build build --config Release --parallel
+
+      - name: Run text-markup tests
+        shell: pwsh
+        run: ./build/Release/test_text_markup.exe
