@@ -19,3 +19,6 @@ gui_log.txt
 # Python cache
 __pycache__/
 *.pyc
+
+# Local terminal/session logs
+terminals/

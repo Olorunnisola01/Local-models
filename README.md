@@ -1,5 +1,10 @@
 # EdgeTTS-Studio Native
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Platform: Windows](https://img.shields.io/badge/platform-Windows%2010%2F11-blue)
+![C++20](https://img.shields.io/badge/C%2B%2B-20-00599C)
+![Qt 6](https://img.shields.io/badge/Qt-6.8-41CD52)
+
 A fast, native **C++/Qt6 desktop text-to-speech studio** for Windows that brings
 five TTS engines under one roof — three fully offline, one free online, and one
 GPU-accelerated remote engine. It supports single-speaker narration,
@@ -35,7 +40,8 @@ to run the app**.
 16. [Portable package](#portable-package)
 17. [Troubleshooting](#troubleshooting)
 18. [Project structure](#project-structure)
-19. [Credits & licensing](#credits--licensing)
+19. [Contributing](#contributing)
+20. [Credits & licensing](#credits--licensing)
 
 ---
 
@@ -414,6 +420,14 @@ scripts/     # fetch_*.ps1 model downloaders, sync/package helpers, Kaggle serve
 tests/       # CLI smoke tests
 third_party/ # onnxruntime, espeak-ng, nlohmann/json
 ```
+
+---
+
+## Contributing
+
+Bug reports, voice/engine requests and pull requests are welcome. See
+[CONTRIBUTING.md](CONTRIBUTING.md) for build-and-test steps, and
+[SECURITY.md](SECURITY.md) for reporting vulnerabilities privately.
 
 ---
 

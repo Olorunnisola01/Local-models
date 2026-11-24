@@ -1,0 +1,50 @@
+name: Bug report
+description: Something isn't working as expected
+labels: [bug]
+body:
+  - type: dropdown
+    id: engine
+    attributes:
+      label: Engine
+      options:
+        - Supertonic
+        - Kokoro
+        - Piper
+        - Microsoft Edge (online)
+        - Fish Audio S2 (remote)
+        - Not engine-specific (UI, export, DSP)
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Include the exact error text and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Select provider ...
+        2. Choose voice ...
+        3. Click Synthesize ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      placeholder: e.g. v1.0.0 or a1b2c3d
+  - type: input
+    id: system
+    attributes:
+      label: System
+      placeholder: Windows 11 23H2, RTX 3060, DirectML on/off
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Paste relevant console or log output.
+      render: text
