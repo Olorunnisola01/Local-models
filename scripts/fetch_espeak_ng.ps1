@@ -59,7 +59,8 @@ $names = $exports | ForEach-Object {
 if (-not $names) { throw "No exports read from libespeak-ng.dll (is dumpbin on PATH?)" }
 $def = Join-Path $tmp "libespeak-ng.def"
 @("LIBRARY libespeak-ng", "EXPORTS") + $names | Set-Content -Encoding ascii $def
-& lib.exe /nologo /machine:x64 /def:$def /out:(Join-Path $dst "lib\espeak-ng.lib")
+$implib = Join-Path $dst "lib\espeak-ng.lib"
+& lib.exe /nologo /machine:x64 "/def:$def" "/out:$implib"
 if ($LASTEXITCODE -ne 0) { throw "lib.exe failed to create espeak-ng.lib" }
 
 Write-Host "Vendored espeak-ng $Tag into $dst"

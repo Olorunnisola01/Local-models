@@ -14,7 +14,17 @@ per-voice graphic EQ, AI noise-suppression (DeepFilterNet), a "Natural
 Humanizer" DSP chain, and batch/caption export — **with no Python runtime needed
 to run the app**.
 
-> **Important:** the model weights and the compiled binaries are **not** stored
+## Download (no build needed)
+
+**[⬇ Download EdgeTTS-Studio-Portable.exe (v1.0.0)](https://github.com/Olorunnisola01/Local-models/releases/latest)** —
+a single portable file for Windows 10/11 x64. Double-click it: no Qt, Visual C++
+runtime, ONNX Runtime or model downloads needed. The first run unpacks about
+1.7 GB beside the exe (~30 s), so put it somewhere with ~2 GB free. Because the
+exe is unsigned, SmartScreen may warn you: choose **More info → Run anyway**.
+
+Want to build from source or add other models? Read on.
+
+> **Building from source:** the model weights and the compiled binaries are **not** stored
 > in this repository (they are gigabytes in size). After cloning you must
 > **download the models** and **build the app** using the steps below. This
 > README walks you through every engine so you can get all of them working.
@@ -23,6 +33,7 @@ to run the app**.
 
 ## Table of contents
 
+0. [Download (no build needed)](#download-no-build-needed)
 1. [Engines at a glance](#engines-at-a-glance)
 2. [System requirements](#system-requirements)
 3. [Install the build tools](#1-install-the-build-tools)
